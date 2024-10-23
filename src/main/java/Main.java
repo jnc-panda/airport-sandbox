@@ -17,5 +17,11 @@ public class Main {
 
     public static void main(String[] args) {
 
+        Cessna cessna = new Cessna("Paris", 5);
+        Jet Airbus = new Jet(200, "A320", "Turin");
+        Sikorsky sikorsky = new Sikorsky("Manchester", 4);
+        Chinook chinook = new Chinook("Lossie", 45);
+
+
     }
 }
